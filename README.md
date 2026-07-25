@@ -1,4 +1,4 @@
-# ✨ Zarkdown
+# ✨ Zarkdown （版本1.1）
 
 > **键盘友好型纯文本标记语言** —— 所有符号均位于键盘主键区，无需按 Shift 组合键。
 
@@ -87,9 +87,9 @@ print("Hello Zarkdown!")
 ```
 然后运行：
 ```bash
-zarkdown hello.zkdn -o hello.html
+zarkdown hello.zkdn -w
 ```
-用浏览器打开`hello.html`，看到效果！
+浏览器会自动打开，显示渲染后的 HTML 页面。修改 `hello.zkdn` 并保存，页面会自动刷新。
 
 ## 贡献
 欢迎任何形式的贡献！你可以：
@@ -102,6 +102,17 @@ zarkdown hello.zkdn -o hello.html
 本项目采用 MIT License 开源协议，你可以自由使用、修改、分发。
 ## ❤️ 致谢
 感谢你阅读这份文档！如果觉得 Zarkdown 有趣，欢迎给项目点一颗 ⭐ 星，让更多人看到它。
+## 📝 更新日志
+**v1.1.0 (2026-07-25)**
+* ✨ 新增 `-w` 监听模式，保存即自动重新转换
+* ✨ 自动在浏览器中打开生成 HTML，实现实时预览
+* 🐛 修复中文编码问题，兼容带 BOM 的 UTF-8 文件
+* 🐛 修复 macOS 下相对路径打开失败的问题
+* 📝 完善 README 文档，增加完整语法表和示例
+
+**v1.0.0 (2026-07-25)**
+* 🎉 首次发布，支持完整的 Zarkdown 语法
+
 
 ---
 
