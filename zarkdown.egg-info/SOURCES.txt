@@ -1,7 +1,0 @@
-core.py
-setup.py
-zarkdown.egg-info/PKG-INFO
-zarkdown.egg-info/SOURCES.txt
-zarkdown.egg-info/dependency_links.txt
-zarkdown.egg-info/entry_points.txt
-zarkdown.egg-info/top_level.txt
