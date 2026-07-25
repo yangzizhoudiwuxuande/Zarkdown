@@ -90,6 +90,8 @@ print("Hello Zarkdown!")
 zarkdown hello.zkdn -w
 ```
 浏览器会自动打开，显示渲染后的 HTML 页面。修改 `hello.zkdn` 并保存，页面会自动刷新。
+## 📸 效果预览
+![Zarkdown 渲染效果](screenshot.png)
 
 ## 贡献
 欢迎任何形式的贡献！你可以：
