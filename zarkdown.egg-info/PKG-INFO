@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: zarkdown
+Version: 1.0.0
+Summary: Zarkdown - 键盘友好型纯文本标记语言
+Author: yangzizhoudiwuxuande
+Requires-Python: >=3.6
+Dynamic: author
+Dynamic: requires-python
+Dynamic: summary
