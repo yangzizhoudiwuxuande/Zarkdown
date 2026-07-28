@@ -1,4 +1,4 @@
-# ✨ Zarkdown （版本1.2.2）
+# ✨ Zarkdown （版本2.0.0）
 
 > **键盘友好型纯文本标记语言** —— 所有符号均位于键盘主键区，无需按 Shift 组合键。
 
@@ -72,6 +72,7 @@ zarkdown example.zkdn
 ---
 
 ## 示例
+# 转为HTML
 创建一个`hello.zkdn`文件：
 ```zkdn
 / Zarkdown 欢迎页
@@ -90,6 +91,19 @@ print("Hello Zarkdown!")
 zarkdown hello.zkdn -w
 ```
 浏览器会自动打开，显示渲染后的 HTML 页面。修改 `hello.zkdn` 并保存，页面会自动刷新。
+# 转为Word/LaTex
+转为Word/LaTex需要安装Pandoc。
+
+转为Word
+```bash
+zarkdown my_note.zkdn -f docx
+```
+
+转为LaTex
+```bash
+zarkdown my_note.zkdn -f latex
+```
+
 ## 📸 效果预览
 ![Zarkdown 渲染效果](new.png)
 
@@ -105,6 +119,9 @@ zarkdown hello.zkdn -w
 ## ❤️ 致谢
 感谢你阅读这份文档！如果觉得 Zarkdown 有趣，欢迎给项目点一颗 ⭐ 星，让更多人看到它。
 ## 📝 更新日志
+**v2.0.0 (2026-07-28)**
+* 支持导出为Word/LaTex等格式（需安装Pandoc）
+
 **v1.2.2 (2026-07-26)**
 * 支持多行表格
 
