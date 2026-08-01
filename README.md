@@ -72,7 +72,7 @@ zarkdown example.zkdn
 ---
 
 ## 示例
-# 转为HTML
+### 转为HTML
 创建一个`hello.zkdn`文件：
 ```zkdn
 / Zarkdown 欢迎页
@@ -91,8 +91,12 @@ print("Hello Zarkdown!")
 zarkdown hello.zkdn -w
 ```
 浏览器会自动打开，显示渲染后的 HTML 页面。修改 `hello.zkdn` 并保存，页面会自动刷新。
-# 转为Word/LaTex
+### 转为Word/LaTex
 转为Word/LaTex需要安装Pandoc。
+
+```bash
+brew install pandoc
+```
 
 转为Word
 ```bash
