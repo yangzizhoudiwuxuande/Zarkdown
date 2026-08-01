@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "zarkdown"           # 你的包在PyPI上的名字，必须唯一
+version = "2.0.1"           # 当前版本号
+authors = [
+    { name="yangzizhoudiwuxuande", email="yangzizhou2026@outlook.com" },
+]
+description = "Zarkdown - 键盘友好型纯文本标记语言"
+readme = "README.md"
+requires-python = ">=3.6"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/yangzizhoudiwuxuande/zarkdown"
+"Bug Tracker" = "https://github.com/yangzizhoudiwuxuande/zarkdown/issues"
