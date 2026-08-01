@@ -109,7 +109,7 @@ zarkdown my_note.zkdn -f latex
 ```
 
 ## 📸 效果预览
-![Zarkdown 渲染效果](new.png)
+[![pm4y4lF.png](https://s41.ax1x.com/2026/08/01/pm4y4lF.png)](https://imgchr.com/i/pm4y4lF)
 
 ## 贡献
 欢迎任何形式的贡献！你可以：
